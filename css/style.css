@@ -1,0 +1,84 @@
+.container{
+    /*text-align: center;*/
+    background-color: #d0fff4;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid #6dd7ff;
+    height: 550px;
+}
+.alert-warning{
+    margin-left: auto;
+    margin-right: auto;
+}
+#title{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+#SN_login {
+    position: absolute;
+    display: inline;
+}
+#SN_content{
+    height: 70%;
+}
+#d_messages{
+    background-color: white;
+    float: left;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #6dd7ff;
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+#d_users{
+    background-color: white;
+    float: right;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid #6dd7ff;
+}
+#display_message{
+    margin: 5px;
+}
+#text_message{
+    border-radius: 5px;
+    border: 2px solid antiquewhite;
+}
+#view_message{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #d0fff1;
+    display: inline-block;
+}
+#view_date{
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 10px;
+}
+#_send{
+    position: relative;
+    height: 50px;
+    margin-top: 30px;
+    /*border: 3px solid #6dd7ff;*/
+}
+#s_input{
+    width: 70%;
+    float: left;
+    border: 1px solid #6dd7ff;/*
+    overflow-block: hidden;*/
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+#s_btn{
+    width: 20%;
+    float: right;
+    border: 1px solid #6dd7ff;
+}
+#smiles{
+    margin: 5px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
